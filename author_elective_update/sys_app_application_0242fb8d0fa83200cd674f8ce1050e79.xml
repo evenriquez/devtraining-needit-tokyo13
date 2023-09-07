@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>NeedIt</name>
+        <order>100</order>
+        <roles>x_58872_needit.needit_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-24 22:46:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0242fb8d0fa83200cd674f8ce1050e79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_application_0242fb8d0fa83200cd674f8ce1050e79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-24 22:46:33</sys_updated_on>
+        <title>NeedIt</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a6df3ef3db6b3b008aea21c40596190a</instance_id>
+        <instance_name>dev92901</instance_name>
+        <name>sys_app_application_0242fb8d0fa83200cd674f8ce1050e79</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>NeedIt</name>
+        <order>100</order>
+        <roles>x_58872_needit.needit_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-24 22:46:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0242fb8d0fa83200cd674f8ce1050e79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_application_0242fb8d0fa83200cd674f8ce1050e79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-24 22:46:33</sys_updated_on>
+        <title>NeedIt</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>-1424068068</payload_hash>
+        <record_name>NeedIt</record_name>
+        <reverted_from/>
+        <source>ae20ac8e2f203110f1c757892799b600</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 12:16:37</sys_created_on>
+        <sys_id>db30e0ce2f203110f1c757892799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189df609bb40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-10 12:16:37</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>1b30e0ce68203110aaabd514be9fab4a</update_guid>
+        <update_guid_history>1b30e0ce68203110aaabd514be9fab4a:0,f698d61924e07110312c6d1e5dd93738:0,95a98619b3a071102dbeef90304cdde4:0,3506c2157ba071108c64e5227029356d:0,7563d42b5dd03110a8fb2e04c42b3012:0,2e41481380d431105f74771e22319d47:0,cf661fc75f1431107e020be87b2f6843:892782159,a664f075b0147510614613d711da248a:0,7926bf69941075101c0b8371ec0c9bc2:2025383296,7d20f7e1111075103c8a27ba1b17625b:0,52af2ba13b10751045b7ad57a195205d:0,9c57e7a941dc3510756bdf78828609e0:2022411811,2cf327e508dc3510f9926f656bedd3e6:0,4611a7e187dc35104d1d7e30df63abe3:2022411811,ab6793a9c39c3510300a566db1fb3aec:0,72815fa1069c35100324f9ec35334698:0,52f05f61c79c351071bbbd933a430726:0,03405721749c351068297beebfe38643:0,b6cf07ed5f5c3510c6317519ae452c18:0,8a9cc3e9945c35105e22fa8cd375fe32:0,fd758325cf5c3510f4e47723aacd5760:0,53c34f61ad5c3510778064ff47e471d3:0,3773cf21695c35108035e45ed51508e0:0,dcc1f7dd14103510ee8197132692687e:0,0b64cb15559cf110d0fc4049b392ea5b:0,c1504215cb98f110f7414f2b80db1102:0,6ccad9707cd87110ef856d66f3b0da06:0,baff77e812547110f438533dae829ade:0,bd583be08a547110dbf2fb34bf06b7ad:0,55b0f38f71083110b3bf0e24fe1a91a7:0,6e02da479cc03110b9f8494980587fad:0,fe004e83ba803110d9672c71ee1117f7:20724716,829bf10f63403110812ec188e73bbae6:0,bfb77dc72f4031108fa32ebc0ea80230:2022411811,16272a0a368031109996a6dda347912b:0,5336aa861d803110e09e6de2fb4d2e9a:0,7f642ec2d0803110077db971c6a147aa:0,3bb32a8289803110acd522fa10cd943b:0,00acd2ca09403110c7d31303ff1dd6d4:0,38e7568689403110ac580100590d6c81:0,0380c274124471108907374273582c69:0,55a0e1f43bc071105139508d1ccb5e83:0,04161d20a004311034113b79920f8425:0,4d4b7c10fdc4311083ad60b93d9d8bbd:0,07f5e01c4544311051cc822840a478ec:0,dc1ed8140d4431108ce236ac0fe85f09:0,8b0ee704a1803110768422c4a9dcf58c:0,190c3087973be1108362d87b7639d485:0,e02abcc3183be110ff2c9eba2b09b51f:0,3e89f8832a3be110d8bfd64a87a11f78:2022411811,22597483ab3be11046c1c940ac5f02e1:0,0a297c43953be1108336035a41988ea4:2022411811,13c513b25bb3e1109e5ec668db72f420:0,04465e9e6e736110ef04efd081c07b7e:0,3afc241ecbfb21103829b82fdc9349ec:-478898861,123d65d83a3621104c4a0c8c9d5c1d13:0,94b3965a5b262110ec9fce399fdd3343:-1424068068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt">804db5ae2f857110f1c757892799b651</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-06 04:51:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>53ef9ad778564d278a36bfb33b61c009</sys_id>
+        <sys_metadata>0242fb8d0fa83200cd674f8ce1050e79</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_app_application_0242fb8d0fa83200cd674f8ce1050e79</sys_update_name>
+        <sys_update_version display_value="sys_app_application_0242fb8d0fa83200cd674f8ce1050e79">db30e0ce2f203110f1c757892799b64a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-06 04:51:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

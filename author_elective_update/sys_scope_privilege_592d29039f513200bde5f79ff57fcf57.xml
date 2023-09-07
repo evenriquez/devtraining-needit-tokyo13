@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>read</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 00:59:49</sys_created_on>
+        <sys_id>592d29039f513200bde5f79ff57fcf57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_592d29039f513200bde5f79ff57fcf57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 00:59:49</sys_updated_on>
+        <target_name>sys_user</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a6df3ef3db6b3b008aea21c40596190a</instance_id>
+        <instance_name>dev92901</instance_name>
+        <name>sys_scope_privilege_592d29039f513200bde5f79ff57fcf57</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 00:59:49</sys_created_on>
+        <sys_id>592d29039f513200bde5f79ff57fcf57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_592d29039f513200bde5f79ff57fcf57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 00:59:49</sys_updated_on>
+        <target_name>sys_user</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>-1867251027</payload_hash>
+        <record_name>sys_user</record_name>
+        <reverted_from/>
+        <source>ae20ac8e2f203110f1c757892799b600</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 12:16:40</sys_created_on>
+        <sys_id>8440e0ce2f203110f1c757892799b6f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189df60a60f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-10 12:16:40</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>c040e0ceb82031109d2b88dda61e03f1</update_guid>
+        <update_guid_history>c040e0ceb82031109d2b88dda61e03f1:0,af981a194ce07110884254146427a45c:0,56a90a19e1a07110b133bfa5727c9117:0,1606061563a0711005edbc17e6f9c627:0,a663182b2cd03110654c8e81cdff6f04:0,c226ff69d51075107cc085d5069fd131:-1945440101,2e20f7e1a5107510fc22a3e0db6f7cd4:0,87af6ba17b1075107599bde3915a9b85:0,1d576ba941dc351027984b412cfa0400:1823149021,c9f367e5abdc3510f97af741515d9e7e:0,1b112be1b8dc35104cce04b6a2b57deb:1823149021,d7819fa1609c351097e860af977a152c:0,cbf09f61f19c35103368ec1294816e0b:0,ef405721419c35102123b511900fc1bd:0,17cf47ed495c351084a0a5d27a74d313:0,e69c07e9815c35107d7890043fde2c2c:0,5675c3254f5c3510fcd251a65cba5128:0,3fc38f61fc5c3510bc23665f93191579:0,20834361305c3510755bef1ce1306e11:0,e55042150298f110ddc54942374ba0bf:0,81cad970f3d87110b819654e5f6173ed:0,afffb7e826547110193b5a7e7e6f11ea:0,ca587be05054711036361002e4897c2d:0,26b0378fa108311068c0ca9e19c736a9:0,2b1046c3cc803110878e064b67d31fa8:-1718067197,d5ab390f624031105a29d599d7d7eb18:0,c1c7bdc7f74031102b445cc330a4a4fd:1823149021,47276a0af0803110c4a8dbfd04b349b1:0,8446ea86718031109ec14a473611dad7:0,fc74aec2288031100bdf138581485b30:0,f8c36a82608031108acd3c1c47f9ea91:0,05ac56ca03403110b483c3151d238715:0,86d752868340311060cad1c8d4c842d5:1823149021,28161d20bb04311087dce49fec5191e4:0,fd4bbc10d4c4311042545cf4c94a3fc8:0,9006641c2e4431103e14d19517fd10bb:0,851e1c1418443110156679bf60dcea16:0,0c1e6b0429803110b9c67db8f0b2ae08:0,cceecf44ae0031109cdf9a3c2b9d6a4e:0,2c8cbc876e3be110ae04741643b81211:0,c80cbc474d3be110d0f97a39c1ed7151:1823149021,b42abcc3093be110f245d6d3cbde3b81:0,17893c836f3be11017de0dc9a0016250:1823149021,7259b483983be110f3d7aa87134bd54f:0,0729bc43b63be110c7a5cc5c5adde9bc:1823149021,b7c553b2b1b3e11035732450a33bd724:0,3f1d2d988c362110068aa2e5a87303de:1823149021,65b3d65ad12621102c0325bd1a02d2f3:-1867251027</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-06 04:51:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>1f1c1c628136442a99af670086adac44</sys_id>
+        <sys_metadata>592d29039f513200bde5f79ff57fcf57</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_592d29039f513200bde5f79ff57fcf57</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_592d29039f513200bde5f79ff57fcf57">8440e0ce2f203110f1c757892799b6f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-06 04:51:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

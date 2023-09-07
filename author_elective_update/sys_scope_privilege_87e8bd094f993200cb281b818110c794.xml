@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-02 20:43:25</sys_created_on>
+        <sys_id>87e8bd094f993200cb281b818110c794</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: user roles and groups</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_87e8bd094f993200cb281b818110c794</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-02 20:43:25</sys_updated_on>
+        <target_name>Glide API: user roles and groups</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a6df3ef3db6b3b008aea21c40596190a</instance_id>
+        <instance_name>dev92901</instance_name>
+        <name>sys_scope_privilege_87e8bd094f993200cb281b818110c794</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-02 20:43:25</sys_created_on>
+        <sys_id>87e8bd094f993200cb281b818110c794</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: user roles and groups</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_87e8bd094f993200cb281b818110c794</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-02 20:43:25</sys_updated_on>
+        <target_name>Glide API: user roles and groups</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>680367837</payload_hash>
+        <record_name>Glide API: user roles and groups</record_name>
+        <reverted_from/>
+        <source>ae20ac8e2f203110f1c757892799b600</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 12:16:40</sys_created_on>
+        <sys_id>4c40e0ce2f203110f1c757892799b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189df60a6780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-10 12:16:40</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>8840e0ce7f203110b54c2ca86aed4bf4</update_guid>
+        <update_guid_history>8840e0ce7f203110b54c2ca86aed4bf4:0,67981a1986e07110febd4a701dbe0460:0,1ea90a1925a07110cce42ed24891e21a:0,da06061565a0711074a5eca719c42d2a:0,ee63182b4fd0311008959150a85bb307:0,1e26ff69fd1075103ca571222498819d:1555510529,e620f7e1d610751051271f2013b4d9d8:0,c3af6ba1c21075109509e710b3e86d89:0,bd576ba912dc3510a9e1cd7b43082193:1486563085,05f367e583dc3510d9a1db0ac0ec0d82:0,84216be159dc35104f94ec2335b347de:1486563085,5f819fa1b09c3510c831e8101e936439:0,cbf09f61d49c351024a690e6f0accd12:0,2f405721d89c3510659f39e1212f00d7:0,27cf47ed965c3510bd8e0e3e5d360c1a:0,ee9c07e9b05c35104b95d0e42c098152:0,6275c325dd5c351024f2424120bcac2f:0,7fc38f61285c35100fbb40b46dedeb93:0,2c834361cf5c351028c80146c51fa317:0,a1504215c498f1104a312bc3a5c10dc3:0,01cad9705ed871108ca8266e706fbbfd:0,2fffb7e82b547110b1704d22f2cd51fa:0,82587be0165471104f886f0a29bc3831:0,fdbb5fa413d0711085ce40674d0597cb:1124824065,9b8b1fa468d071102f330f11476e61ba:525058877,6ab0378fb10831105128ecbd757cfaac:0,95200ac3a780311080ba972ee53aaa84:1025353942,15ab390f10403110c2d2422f9a3b6b2b:0,5dc7fdc7324031106a7fda293bfa9072:1486563085,53276a0ae58031105ebc9abbb529a2b8:0,4c46ea862b803110db00ebf219e1d1da:0,f874aec268803110efb17e0d87f95537:0,b0c36a82c2803110080d24ca727e0595:0,49ac56ca49403110185e603791de0418:0,f6d79286de40311037894cdf3f9866b7:1486563085,ec161d20fd043110405b7b49255873e7:0,7d4bbc1099c43110e1586a0a887d01d8:0,5c06641c09443110118f8029ecc0e7be:0,4d1e1c1401443110315d2f742faf3219:0,c01e6b0466803110a79f43a9842b450c:0,84eecf448c003110005fd951b8609d52:0,648cbc874d3be11087fffa3e04dcb115:0,d40cbc47f83be110ac240d57329fdf88:1486563085,f82abcc3113be1103ad288e66035e584:0,b3893c83f53be110ce9573b45fac08a5:1486563085,b659b483943be110f63d64fa99261f52:0,9729fc437c3be110d5b3858aef594816:1486563085,fbc553b240b3e11065b01018365a6627:0,e12dad98d7362110994e381fa7498673:1486563085,e5b3d65a22262110c41e2148f8348cf6:680367837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-06 04:51:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>04d79ba63203435a81cf126ba6d1f844</sys_id>
+        <sys_metadata>87e8bd094f993200cb281b818110c794</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: user roles and groups</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_87e8bd094f993200cb281b818110c794</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_87e8bd094f993200cb281b818110c794">4c40e0ce2f203110f1c757892799b6f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-06 04:51:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

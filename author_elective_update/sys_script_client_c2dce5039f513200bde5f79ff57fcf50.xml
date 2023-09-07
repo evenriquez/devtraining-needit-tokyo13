@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Use the GetEmail Address Script Include to retrieve the Requested for's email address from the database when the Requested for value changes.</description>
+        <field>u_requested_for</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt Populate Email Field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    // Modified the if to return if the newValue == oldValue to avoid
+    // unecessary trips to the server
+    if (isLoading && !g_form.isNewRecord()  || newValue === '' || newValue == oldValue) {
+        return;
+    }
+
+    // Instantiate the GetEmailAddress Script Include 
+    var getEmailAddr = new GlideAjax('GetEmailAddress');
+    // Specify the getEmail method
+    getEmailAddr.addParam('sysparm_name','getEmail');
+    // Pass the Requested for sys_id
+    getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_requested_for'));
+    // Send the request to the server
+    getEmailAddr.getXML(populateEmailField);
+
+
+    // When the response is back from the server
+    function populateEmailField(response){
+        // Extract the email address from the response, clear any value from the email field, 
+        // set new value in the email field
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.clearValue('u_requested_for_email');
+        g_form.setValue('u_requested_for_email',emailFromScriptInclude);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 00:59:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2dce5039f513200bde5f79ff57fcf50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Populate Email Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_c2dce5039f513200bde5f79ff57fcf50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-29 22:02:20</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a6df3ef3db6b3b008aea21c40596190a</instance_id>
+        <instance_name>dev92901</instance_name>
+        <name>sys_script_client_c2dce5039f513200bde5f79ff57fcf50</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description&gt;Use the GetEmail Address Script Include to retrieve the Requested for's email address from the database when the Requested for value changes.&lt;/description&gt;
+        &lt;field&gt;u_requested_for&lt;/field&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;NeedIt Populate Email Field&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    // Modified the if to return if the newValue == oldValue to avoid
+    // unecessary trips to the server
+    if (isLoading &amp;&amp; !g_form.isNewRecord()  || newValue === '' || newValue == oldValue) {
+        return;
+    }
+
+    // Instantiate the GetEmailAddress Script Include 
+    var getEmailAddr = new GlideAjax('GetEmailAddress');
+    // Specify the getEmail method
+    getEmailAddr.addParam('sysparm_name','getEmail');
+    // Pass the Requested for sys_id
+    getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_requested_for'));
+    // Send the request to the server
+    getEmailAddr.getXML(populateEmailField);
+
+
+    // When the response is back from the server
+    function populateEmailField(response){
+        // Extract the email address from the response, clear any value from the email field, 
+        // set new value in the email field
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.clearValue('u_requested_for_email');
+        g_form.setValue('u_requested_for_email',emailFromScriptInclude);
+    }
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-03-09 00:59:27&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;c2dce5039f513200bde5f79ff57fcf50&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;NeedIt Populate Email Field&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_c2dce5039f513200bde5f79ff57fcf50&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2018-06-29 22:02:20&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_58872_needit_needit&lt;/table&gt;
+        &lt;type&gt;onChange&lt;/type&gt;
+        &lt;ui_type&gt;0&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>951968472</payload_hash>
+        <record_name>NeedIt Populate Email Field</record_name>
+        <reverted_from/>
+        <source>ae20ac8e2f203110f1c757892799b600</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 12:16:41</sys_created_on>
+        <sys_id>0c4024ce2f203110f1c757892799b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189df60a9820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-10 12:16:41</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>484024ced1203110f8256775e3d01c1f</update_guid>
+        <update_guid_history>484024ced1203110f8256775e3d01c1f:0,bf981a1991e07110463d52c2d623fe93:0,eea90a1952a071102f227e460013576d:0,ea060615bba0711082c2b802acc19865:0,2263182b00d03110d0e048c7c289092f:0,f0267f69f2107510cc00aba1179d7266:-1595612613,a220f7e1a5107510f7e228d88dc68ff4:0,1baf6ba15d107510b823169af39832c7:0,0a576ba91ddc351011f77e37dda1bcee:1521832944,4df367e540dc3510bde027e752e6109f:0,b821abe1c6dc3510208eb2f6e32239de:-1188591653,9c77d3a95a9c3510bce38b7089c8d9e6:0,dec517295a9c3510b75d0d3df8e58a00:0,ccd393a58c9c35107c59d7f29948727b:0,83c21f25c59c35104a694ff095ef1277:0,2b819fa1c39c35106efa8850e377b386:0,17f09f61669c3510154a6c9a26e7b180:0,e8d05761689c35101079894774dd74f0:0,f74097211b9c351001a3eed45a207d24:0,3bcf47ede85c351059a10eb9087778a0:0,be9c07e98e5c351028b1c6e881c82770:0,3a75c325255c351048b5a274f142559c:0,77c38f61d25c3510fa7ab30b2eab6ac7:0,3c834361095c351064705e751f2b397b:0,6cc1f7dd051035108ce247e6eb1679f2:0,b3640f156f9cf1108693234b8615922e:0,fd5042154998f110836363810fd10ddd:0,d5ca1d707fd87110b68249cc89a1ba6e:0,bbfff7e8be547110c407692bf2bde027:0,42587be0b4547110a4d657ef33924b9d:0,b6b0378fdf0831101b586b3d0ca26fd3:0,31000e83a08031106237531c48195f6e:-812250825,0aeefd035a80311027926ed400cb0524:0,adab390f74403110a480cfd85749348e:0,f5c7310b67403110a2b8930a69244e3e:372874130,fdc36107810031100ee23ac548d8cfd6:0,db27aa0abf8031108518520084f7270a:0,c4462e868c803110289af5ae71dc8f24:0,f874aec27f803110bd657a07e3ec4871:0,b4c36a82b180311021be51896d4f21d2:0,41ac56ca0f40311084d9c286b2021f46:0,93d7d286c54031101a23a76d4bf72b2e:1521832944,d780c274fd4471107414069743ec43d7:0,cea025f484c071108ddb752297918c6d:0,34165d20d40431103e2c7d1952473b1f:0,0e4bfc102ec43110ddadc196a992eb0f:0,bc06a41c4744311052006a34583f9a04:0,591e1c1489443110ac234d187f7c348b:0,5c1e6b046d803110edc1faf87e0f6845:0,d0eecf449e003110aa748847148eed8d:0,a88cbc87d43be110ed8c27bfeab20628:0,280cbc47a03be1100630aea8c6d61dbf:-1188591653,b02abcc31c3be110012f5a0888843798:0,08997c83d03be110330cd5b64c46a928:-1188591653,f259b483d83be110f36b8cc7b0c4c766:0,af29fc43153be110bd561e2e868adb80:-1188591653,88d553b2b8b3e1102a8293655d17eb5d:0,932d21d8b636211044cc026379da5de0:-1188591653,3db31a5a462621100c781286410d556e:-740815565</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-06 04:51:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>533b7311288c499ab3a62cb7877e1104</sys_id>
+        <sys_metadata>c2dce5039f513200bde5f79ff57fcf50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Populate Email Field</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">f4c7f3c72f943110f1c757892799b64f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_client_c2dce5039f513200bde5f79ff57fcf50</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c2dce5039f513200bde5f79ff57fcf50">0c4024ce2f203110f1c757892799b61f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-06 04:51:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
